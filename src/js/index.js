@@ -1,7 +1,5 @@
-import Counter from "./modules/Counter.js";
+import Caculator from "./components/Caculator.js";
 
-export default function App() {
-  new Counter();
-}
-
-App();
+document.addEventListener("DOMContentLoaded", () => {
+  new Caculator();
+});
